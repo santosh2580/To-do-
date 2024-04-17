@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  background-image: url("https://img.freepik.com/free-photo/smooth-wooden-plank-textured-background_53876-110769.jpg?t=st=1713263048~exp=1713266648~hmac=3b4b8c155d81e7755ff3ad76b7c698125776676b9d0416c8d2007cf6b4df0f5f&w=1380");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.75rem;
+  color: #333;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  flex-grow: 1;
+  padding: 8px;
+  margin-right: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task-text {
+  flex-grow: 1;
+  overflow: hidden;
+  word-wrap: break-word;
+  white-space: normal;
+  margin-right: 10px;
+}
+
+.task-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.task-buttons button {
+  margin-left: 5px;
+}
+
+.alert {
+  background-color: #ffc107;
+  color: #333;
+  border: 1px solid #e2c705;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.task-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.remove-button,
+.edit-button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #ffc107;
+  margin-left: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.complete-button{
+  padding: 5px 10px;
+  background-color: #ff6200;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
