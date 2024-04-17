@@ -1,2 +1,2 @@
-# To-do-
+# To-do
 Made with React
